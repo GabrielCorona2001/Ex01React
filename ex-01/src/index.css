@@ -1,0 +1,86 @@
+body {
+    width: 100%;
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+
+}
+
+
+
+.div-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.body-title {
+    color: #3F3D56;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    line-height: 40.45px;
+    font-size: 32px;
+}
+
+.body-title-span {
+    color: #EE24FF;
+    font-weight: 700;
+}
+
+.div-body-paragraph {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #828282;
+    text-align: center;
+}
+
+.body-paragraph-mid {
+    max-width: 75%;
+}
+
+.span-grey {
+    color: #3F3D56;
+    font-weight: 700;
+}
+
+.span-font-weight {
+    font-weight: 700;
+}
+
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.nav-footer {
+
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    border-top: solid 1px #ECEFF2;
+    padding-top: 20px;
+    color: #3F3D56;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    line-height: 22.15px;
+    text-align: center;
+}
+
+.footer-wave {
+    width: 100%;
+}
